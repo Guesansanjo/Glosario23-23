@@ -1,0 +1,1621 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Glosario Jose Guerrero</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous" />
+           <style>
+			#par {
+    background-color: #fceed1;
+    width: auto;
+
+    padding: 20px 0px 20px 0px;
+    height: auto;
+
+}
+
+#impar {
+
+    background-color: #f2d53c;
+    width: auto;
+    padding: 20px 0px 20px 0px;
+    height: auto;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+
+
+}
+
+h6 {
+    font-weight: 700;
+    text-align: center;
+}
+
+hr{
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+p{
+    margin: auto;
+    width: 80%;
+}
+ul{
+   
+}
+		   </style>
+	</head>
+
+	<body>
+		<!-- Terms 2022-2023 -->
+		<!-- We do use emmet notation for faster development of our static site -->
+		<!-- article>section*14, with emmet -->
+		<header >
+			<h1>GLOSSARY of technical terminology</h1>
+			
+		</header>
+		<div id="impar">
+			
+			<h3>Terms 2022-2023</h3>
+		</div>
+		<!-- HTTP/Networks -->
+		
+        <div class="" id="impar">
+		<article class="container justify-content-center rounded-3 p-3 bg-white shadow-lg ">
+			<h4>HTTP and networks</h4>
+			<hr style="width: 90%; margin: auto;">
+
+			<section>
+				<span>
+					<h6>Internet :</h6>
+					<p>
+						Global system of interconnected computer networks that uses the
+						Internet protocol suite (TCP/IP)to communicate between networks and
+						devices.The internet was born in 1983 as a military tool by the
+						goverment of the USA.
+					</p>
+				</span>
+			</section>
+			<hr style="width: 60%; margin: auto;">
+			<section>
+				<span>
+					<!-- proto -->
+					<h6>Protocol (concept, types, RFC)</h6>
+					<p>
+						Is the network layer communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet.
+					</p>
+
+					<div>
+						<br>
+					
+						
+					 </div>
+
+					<div class="row">
+						<p style="font-weight: 600; margin-left:149px ;">Versions :</p>
+					<ul class="col" style="margin-left: 149px;" >
+						<li>Unit testing concept (concept, tools, mock)</li>
+						<li>Integration testing concept (concept, tools)</li>
+						<li>TDD: Test Driven Development</li>
+						
+					</ul>
+					<div class="col" style="margin-top: -52px;">
+					<p style="font-weight: 600;">RFC "Request for Comments":</p>
+					<p class="">Is a publication in a series from the principal technical development and standards-setting bodies for the Internet, most prominently the Internet Engineering Task Force (IETF), the protocols detailed are HTTP and FTP.</p>
+				</div>
+			</div>
+					<!-- proto end -->
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>ISO-OSI levels</h6>
+					<p>Is a conceptual model that 'provides a common basis for the coordination of [ISO] standards development for the purpose of systems interconnection'.In the OSI reference model, the communications between a computing system are split into seven different abstraction layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.</p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>HTTP protocol</h6>
+					<p>Is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.</p>
+					<br>
+					<ul style=" text-align: center; margin: auto;">
+						<li> concept, utility, characteristics : functions as a request–response protocol in the client–server model,it delivers content thru client-server communication.</li>
+						<br>
+						<li>structure of an HTTP request and response packet : Browser sends a request sent to the web server that hosts the website.
+							The web server then returns a response as a HTML page or any other document format to the browser.
+							Browser displays the response from the server to the user.</li>
+							<br>
+						<li>
+							HTTP methods and their utility : This methods are GET , HEAD , POST , PUT , DELETE , CONNECT , OPTIONS , TRACE this methods do explained in the order shown : retrieve info , same as GET but only gets the header , send data , replace thru uploaded content , remove target given , establish a connection , describe communication and perform a message loop.
+						</li>
+					</ul>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>The process of loading a web page</h6>
+					<p>A page load begins when a user selects a hyperlink, submits a form, or types a URL in a browser. This is also referred to as the initial request or the navigation start. The user's action sends a request across the network to the web application server. The request reaches the application for processing.</p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						TCP (concept, utility, well-known ports, structure of TCP segments,
+						sockets)
+					</h6>
+					<p>Is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP).</p>
+					<p>TCP is connection-oriented, and a connection between client and server is established before data can be sent. The server must be listening (passive open) for connection requests from clients before a connection is established. </p>
+					<br>
+					<p>Well-known ports: <br> port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports. <br>
+					Example port 80 is the HTTP port to acces the internet</p>
+					<br>
+					<p>Segmentation is the process of carving up information into smaller pieces. The documentation for Transmission Control Protocol (TCP) refrers to what it calls 'data streams'.
+						By segmenting the data, TCP creates chunks of data that can be routed separately over whatever connections are needed in order to reach the destination. 
+					</p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						IP (concept, utility, IP addresses, routing, structure of IP
+						datagrams)
+					</h6>
+					<p>Is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP).</p>
+					<p>TCP is connection-oriented, and a connection between client and server is established before data can be sent. The server must be listening (passive open) for connection requests from clients before a connection is established. </p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>URL (concept, structure, parameters)</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Client-server applications vs P2P</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						What is a cookie and what is it for? How can we establish a session
+						using cookies? where does the cookie travel within the HTTP packet?
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>What are MIME types and what are they for?</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+		</article>
+
+    </div>
+		<!-- Web Projects -->
+<div id="par">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>Requirements, specifications of an application</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Software development methodologies:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ul>
+						<li>Cascade model</li>
+						<li>Spiral model</li>
+						<li>Models based on prototypes</li>
+						<li>Agile methodologies:</li>
+						<ol>
+							<li>Kanban methods</li>
+							<li>Extreme Programming</li>
+							<li>
+								Scrum (concept, kanban method, sprints, burnout diagram, tools)
+							</li>
+						</ol>
+					</ul>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Continuous integration (concept, servers)</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ul>
+						<li>Unit testing concept (concept, tools, mock)</li>
+						<li>Integration testing concept (concept, tools)</li>
+						<li>TDD: Test Driven Development</li>
+					</ul>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Program documentation (concept, types, tools)</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Deployment in production and in test. Automated deployment. Cloud
+						deployment.
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Containers</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Version managers (concept, tools and features)</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Code repository (types, tools)</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Software quality assessment (concept, available tools)</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+		</article>
+		
+	</div>
+		<!-- Infrastructure -->
+<div id="impar">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>IDES:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Java: NetBeans, Eclipse, IntelliJ</li>
+						<li>Javascript: Visual Studio Code, Sublime, Atom, webstorm</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Browsers:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Chrome, Firefox, Edge, Safari, Opera…</li>
+						<li>Support:</li>
+					</ol>
+				</span>
+			</section>
+		</article>
+		
+	</div>
+		<!-- WEB APLICATION DESING -->
+<div id="par">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white   shadow-lg ">
+			<section>
+				<span>
+					<h6>Server API. Endpoints.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Entity relationship diagram.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Normalization: First, second and third normal forms.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Integrity constraints.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>DB vs. DBMS - DBRMS.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>DML - DDL: SQL.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>noSQL (concept and tools).</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>UML: Process diagram.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Client mockups, wireframers, prototyping.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Navigation diagram of a website.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+		</article>
+		
+		 </div>
+		<!-- Web Application Development -->
+<div id="impar">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg  ">
+			<section>
+				<span>
+					<h6>Markup languages: HTML, CSS, XML, JSON</h6>
+					<p></p><hr style="width: 60%; margin: auto;">
+
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>CSS:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>
+							CSS frameworks: Bootstrap, Materialize, Foundation, Bulma,
+							Tailwind, Semantic UI, Ulkit
+						</li>
+						<li>CSS Precompilers: Sass and Less</li>
+						<li>BEM</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Regular expressions.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Concept</li>
+						<li>cheet sheets</li>
+						<li>Links to learn regular expressions</li>
+						<li>
+							Links to online tools to build and validate regular expressions
+						</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>JSON:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Concept</li>
+						<li>cheet sheets</li>
+						<li>Online parser</li>
+						<li>Java JSON converter libraries;</li>
+						<ul>
+							<l1>Google Gson</l1>
+							<l1>jackson</l1>
+							<l1>json-plain</l1>
+						</ul>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>CDN</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>AJAX</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Static pages vs dynamic pages</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Websocket technology</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Development patterns: MVC, singleton, factory</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Callback concept</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>CORS</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Ecmascript: version history</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Polyfills</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Asynchronous processing, Callbacks, callback hell, promises and
+						reactive programming
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Reactive functional programming: RxJS</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Microservices</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Differences between CMS, ERP and CRM</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Important CMS:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ul>
+						<li>PHP: Wordpress, Joomla, Drupal, Magento, Prestashop</li>
+						<li>Java: Liferay, OpenCMS, Alfresco, Magnolia, Bynder</li>
+					</ul>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Major ERPs: SAP, Microsoft Dynamics, JDEdwards, Sage</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>CRM: Salesforce, Zoho, Agile CRM, Close</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+		</article>
+		<!-- Programación y organización del código -->
+
+	</div>
+
+	<div id="par">
+
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>
+						Concepto de código spaguetti. Explicar porqué se necesita una
+						estructuración en el código.
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Concepto de abstracción en programación</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Paradigmas de la programación:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>
+							¿En qué consiste paradigma declarativo frente al paradigma
+							imperativo?
+						</li>
+						<li>
+							¿Qué es la programación funcional y en qué se diferencia respecto
+							de la programación imperativa?
+						</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Técnicas de programación imperativa</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Programación estructurada</li>
+						<li>Programación modular:</li>
+						<ol>
+							<li>Acoplamiento y cohesión entre módulos</li>
+						</ol>
+						<li>Programación orientada a objetos. Conceptos a desarrollar:</li>
+						<ol>
+							<li>Principios SOLID</li>
+							<li>Interfaces,</li>
+							<li>Clases:</li>
+							<ol>
+								<li>Clases abstractas</li>
+								<li>
+									Propiedades y Métodos: Visibilidad de los métodos y de las
+									propiedades,
+								</li>
+								<li>Implementación de interfaces</li>
+							</ol>
+							<li>Concepto de encapsulación</li>
+							<li>Objetos.</li>
+							<li>Herencia: Concepto de Sobreescribir un método.</li>
+							<li>Concepto de Polimorfismo:</li>
+							<ol>
+								<li>polimorfismo basado en implementación de interfaces</li>
+								<li>polimorfismo basado en la herencia.</li>
+							</ol>
+						</ol>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Particularidades de la orientación a objetos en Javascript</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Explica en qué consisten las Interfaces fluidas.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Qué es la Inyección de dependencias o inversión del control y qué
+						ventajas aporta su uso en la programación web.
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Qué es la programación orientada a aspectos y qué ventajas aporta su
+						uso en la programación web.
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						¿Para qué sirven las excepciones y su tratamiento en un programa?
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Patrones de programación</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>MVC</li>
+						<li>Singleton</li>
+						<li>Factory</li>
+						<li>otros patrones</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Programación dirigida por eventos y Programación asíncrona</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Concepto de promesa</li>
+						<li>Concepto de callback</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Métodos en programación en entorno cliente para manejar la
+						asincronía:
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Callbacks: infierno callback</li>
+						<li>Promesas</li>
+						<li>Métodos async/await</li>
+						<li>Programación funcional reactiva y RxJs</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Genericidad del código: Explica la siguiente regla:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>
+							Cuanto más genéricos son los programas, más reusable es el código
+							pero también es más complejo y difícil de mantener.
+						</li>
+					</ol>
+				</span>
+			</section>
+		</article>
+
+		<!-- Lenguajes de programación  -->
+		</div>
+
+		<div id="impar">
+
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>Lenguajes de programación:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>
+							lenguajes compilados vs interpretados diferencias y lista de
+							lenguajes)
+						</li>
+						<li>
+							Diferencias entre un Compilador, un interprete y un transpilador
+						</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Lenguajes débilmente tipados vs lenguajes fuertemente tipados:
+						diferencias, ventajas y desventajas.
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						¿Qué diferencia existe entre un tipado estático y uno dinámico?
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>¿Qué es el timetomarket de un lenguaje?</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>¿En qué consiste el type typing?</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>¿Qué es la sobrecarga de operadores?</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>¿Qué es la interpolación de cadenas?</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<lo>
+						<li>Ejemplos de interpolación en Java y Javascript</li>
+					</lo>
+				</span>
+			</section>
+		</article>
+
+		<!-- Entorno cliente -->
+		</div>
+
+		<div id="par">
+
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>
+						Navegadores: Mosaic, Netscape, Chrome, firefox, Opera, Safari,
+						Internet Explorer, Edge, Vivaldi, Brave
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>el inspector de chrome y firefox</li>
+						<li>manejo de la caché en navegadores</li>
+						<li>el local storage</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Librerías: jQuery, Prototype, Dojo, Yui</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Librerias de programación funcional: underscore, lodash, rambda
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Frameworks de entorno cliente: Backbone, Knockout, Ember, AngularJS,
+						Angular, React, VueJS
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Diferencias entre una librería y un framework</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Sistemas de gestión de dependencias: bower, npm, yarn</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>task runners: concepto, gulp y grunt.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Preparación de proyectos: yeoman</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>transpiler: babel</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>package bundlers: Webpack y Browserify, parcel</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>ofuscadores: UglifyJS</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>minificadores: minify</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Concepto de aplicación isomorfica: meteor</h6>
+					<p></p><hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>El DOM: concepto. El BOM.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Progressive Web Apps de google</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Generadores de código: Plataformas fullstack: JHipster</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Mockups Tools: figma & Adobe XD</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Javascript</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Concepto de Javascript no obstrusivo</li>
+						<li>Arrays</li>
+						<li>Objetos</li>
+						<li>Funciones</li>
+						<li>Prototipos, herencia prototípica</li>
+						<li>Closures o cierres</li>
+						<li>Objeto global: objeto browser y objeto window</li>
+						<li>Objetos Wrappers: Math, Date, RegExpr, Json</li>
+						<li>Librerías importantes en Javascript:</li>
+						<ol>
+							<li>https://momentjs.com/</li>
+							<li>https://www.chartjs.org/</li>
+							<li>https://animejs.com/</li>
+							<li>https://popper.js.org/</li>
+							<li>https://leafletjs.com/</li>
+							<li>https://sweetalert.js.org/guides/</li>
+							<li>https://hammerjs.github.io/</li>
+							<li>https://animate.style/</li>
+							<li>https://revealjs.com/</li>
+						</ol>
+					</ol>
+				</span>
+			</section>
+		</article>
+	</div>
+		<!-- Entorno servidor -->
+	
+
+		<div id="impar">
+
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>
+						Lenguajes: nodejs, Java, PHP, Phyton, Ruby, Perl, Go, Rust, Elixir,
+						Erlang, Haskell, Clojure
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Lenguajes para apps: Java, Dart, Flutter, React Native, Xamarin,
+						Swift
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Frameworks:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>
+							Java: Spring, Struts, Play, JSF, PrimeFaces, Tapestry, Vaadin,
+							Openxava
+						</li>
+						<li>Phyton: Django, Flask</li>
+						<li>Node: Express</li>
+						<li>Ruby: Rails</li>
+						<li>
+							PHP: Laravel, CodeIgniter, Symphony, Cake, Yii, Zend, Phalcon,
+							Slim
+						</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>ORM: concepto y productos:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Java: Hibernate, EclipseLink, MyBatis</li>
+						<li>PHP: Doctrine</li>
+						<li>Node: Sequelize</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Sistemas de gestión de dependencias:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Java: Gradle, Maven,</li>
+						<li>PHP: composer, PEAR…</li>
+						<li>Node: npm</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Entorno Java</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Java Virtual Machine</li>
+						<ol>
+							<li>¿Qué es la JVM?</li>
+							<li>Ventajas y desventajas de usar la JVM</li>
+							<li>
+								Lenguajes que compilan a bytecode: Java, Scala, Groovy, Kotlin
+							</li>
+						</ol>
+						<li>Concepto de Bytecode</li>
+						<li>JRE y JDK: concepto y diferencias</li>
+						<li>Gestores de dependencias: Gradle vs Maven</li>
+						<li>Spring vs Spring boot.</li>
+						<li>Spring security</li>
+						<li>Otros módulos de spring</li>
+						<li>Contenedores de servlets Java: Jetty, Tomcat, undertow…</li>
+						<li>
+							Servidores de aplicaciones Java: JBoss, GlassFich, WebSphere,
+							WildFly…
+						</li>
+						<li>Concepto de servlet:</li>
+						<lo>
+							<li>objetos request y response.</li>
+							<li>Métodos service e init.</li>
+							<li>El descriptor de despliegue web.xml</li>
+							<li>sesiones</li>
+						</lo>
+						<li>
+							Sistemas para gestionar logs en Java: Log4j, Log4j2, logBack
+						</li>
+					</ol>
+				</span>
+			</section>
+		</article>
+	</div>
+
+		<!-- Bases de datos -->
+	
+<div id="par">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>Diferencia entre base de datos, SGBD y SGBDR</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Sistemas gestores de bases de datos más importantes del mercado.
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Distinguir aquellos que son entornos libres.</li>
+						<li>
+							Distinguir aquellos que son relacionales y los que no lo son.
+						</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>APIs abiertas:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Firebase</li>
+						<li>GraphQL</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>SGBD NoSQL:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>Apache Cassandra</li>
+						<li>MongoDB</li>
+						<li>Redis</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Concepto de campos autonuméricos. Claves. Claves ajenas.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Concepto de vista.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Diagramas de entidad-relación para modelar una base de datos
+						relacional.
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Formas normales, hasta la tercera forma normal.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Lenguajes DDL y DML.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Lenguaje de consulta SQL: inserciones, borrados, actualizaciones,
+						consultas de una o varias tablas, alias, condiciones where,
+						consultas agrupadas, consultas agrupadas y filtradas
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Resultset</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Transacciones</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Prepared statements y la inyección de código.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						GUI para mysql: Programas phpMyAdmin, MySQL Workbench, HeidiSQL,
+						TOAD…
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+		</article>
+	</div>
+		<!-- Control de versiones -->
+		
+<div id="impar">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>Concepto.</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Ventajas que aportan los controladores de versiones</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>trazabilidad</li>
+						<li>historial de cambios</li>
+						<li>reversión</li>
+						<li>trabajo en grupo</li>
+						<li>trabajo en ramas</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Herramientas</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>cvs</li>
+						<li>subversion svn</li>
+						<li>git</li>
+						<li>mercurial</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Repositorios git</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>github</li>
+						<li>bitbucket</li>
+						<li>gitlab</li>
+					</ol>
+				</span>
+			</section>
+		</article>
+
+	</div>
+		<!--Integración continua  -->
+<div id="par">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>Pruebas unitarias:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>junit</li>
+						<li>phpunit</li>
+						<li>Mocha Jasmine Jest</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Pruebas de integracion:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<ol>
+						<li>selenium</li>
+					</ol>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Servidores: Jenkins, Travis CI, TeamCity, CircleCI</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Issue tracking: Jira, backlog, trac. Redmine, mantis</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>
+						Teconologías para la inspección y la mejora del código: codeclimate,
+						sonarqube,
+					</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+		</article>
+	</div>
+		<!-- DEspliegue -->
+		
+		<div id="impar">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>Microservicios y Message Brokers: RabbitMQ, Kafka, Redis, SQS</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Monitorización: new relic, datadog, dynatrace …</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Infraestructura:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<lo>
+						<li>
+							iaas: Infraestructura como servicio: DigitalOcean, ovh, Linode,
+						</li>
+						<li>caas: Container as a service: AWS ECS, Azure, Google cloud</li>
+						<li>
+							paas: Plataforma como servicio: Google App Engine, CloudFoundry,
+							Heroku, AWS (Beanstalk), Azure
+						</li>
+						<li>
+							faas: funciones como servicio: AWS lambda, Azure functions, Google
+							functions
+						</li>
+						<li>
+							saas: Software como servicio: gmail, salesforce, aplicaciones
+							hospedadas (wordpress, magento, prestashop, joomla, drupal…)
+						</li>
+					</lo>
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Contenedores:</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+					<lo>
+						<li>Docker y los contenedores</li>
+						<li>Docker compose</li>
+						<li>Docker swarm, Kubernetes</li>
+					</lo>
+				</span>
+			</section>
+		</article>
+	</div>
+		<!-- Personajes -->
+	
+		<div id="par">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>john resig</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>douglas crockford</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Jeremy Ashkenas</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>misko hevery</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Rod Johnson</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>James Goslin</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Martin Fowler</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Eric S. Raymond</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>Rasmus Lerdorf</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+
+			<section>
+				<span>
+					<h6>john Papa</h6>
+					<p></p>
+					<hr style="width: 60%; margin: auto;">
+				</span>
+			</section>
+		</article>
+	</div>
+		<!-- Links -->
+		
+		<div id="impar">
+		<article  class="container justify-content-center rounded-3 p-3 bg-white  shadow-lg ">
+			<section>
+				<span>
+					<h6>Links</h6>
+					
+					
+				</span>
+			</section>
+		</article>
+	</div>
+
+		<footer class="container">
+			<p>Hello there!</p>
+		</footer>
+	</body>
+</html>
