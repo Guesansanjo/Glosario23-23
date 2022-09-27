@@ -437,6 +437,7 @@ ul{
 					<p><b>API</b> stands for “application programming interface.” An API is essentially a set of rules that dictate how two machines talk to each other. Some examples of API-based interactions include a cloud application communicating with a server, servers pinging each other, or applications interacting with an operating system.</p>
 					<br>
 					<p>An <b>Endpoint</b> is a remote computing device that communicates back and forth with a network to which it is connected. Examples of endpoints include: Desktops. Laptops. Smartphones.</p>
+				<br>
 					<hr style="width: 60%; margin: auto;">
 				</span>
 			</section>
@@ -444,15 +445,30 @@ ul{
 			<section>
 				<span>
 					<h6>Normalization: First, second and third normal forms.</h6>
-					<p></p>
-					<hr style="width: 60%; margin: auto;">
+					<p>Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.</p>
+					<br>
+					<p><b>1. First form :</b><br>
+						If a relation contain composite or multi-valued attribute, it violates first normal form or a relation is in first normal form if it does not contain any composite or multi-valued attribute. A relation is in first normal form if every attribute in that relation is singled valued attribute.</p>
+					<br>
+						<p><b>2. Second Normal Form :</b><br>To be in second normal form, a relation must be in first normal form and relation must not contain any partial dependency. A relation is in 2NF if it has No Partial Dependency, i.e., no non-prime attribute (attributes which are not part of any candidate key) is dependent on any proper subset of any candidate key of the table.
+
+						Partial Dependency – If the proper subset of candidate key determines non-prime attribute, it is called partial dependency.</p>
+					
+					<br>
+					<p><b>3. Third Normal Form:</b><br>A relation is in third normal form, if there is no transitive dependency for non-prime attributes as well as it is in second normal form.
+						A relation is in 3NF if at least one of the following condition holds in every non-trivial function dependency X –> Y
+						
+						</p>
+						<br>
+						<hr style="width: 60%; margin: auto;">
 				</span>
 			</section>
 
 			<section>
 				<span>
 					<h6>Integrity constraints.</h6>
-					<p></p>
+					<p>Protocols that a table's data columns must follow. These are used to restrict the types of information that can be entered into a table. This means that the data in the database is accurate and reliable. </p>
+					<br>
 					<hr style="width: 60%; margin: auto;">
 				</span>
 			</section>
@@ -460,8 +476,17 @@ ul{
 			<section>
 				<span>
 					<h6>DB vs. DBMS - DBRMS.</h6>
-					<p></p>
-					<hr style="width: 60%; margin: auto;">
+				
+					<p><b>Database</b> 
+
+
+						A database is a well organized collection of data that are relative in a meaningful way, which can be access by different users but store only once.</p>
+
+						<br>
+
+						<p><b>DBMS(DATABASE MANAGEMENT SYSTEM) </b>“DBMS is a software system used to manage database and it's operations like insertion, deletion, selection and updation. It enabled user to store, modify and extract information form database as per the requirements. It act as an intermediator between the user and the database. “</p>
+				<br>
+						<hr style="width: 60%; margin: auto;">
 				</span>
 			</section>
 
